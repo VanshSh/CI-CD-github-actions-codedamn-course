@@ -10,6 +10,8 @@ jobs:
                  node-version: '14'
            - name: Build the project
              run:  yarn build
+           - name: Install noe_modules
+             run: yarn     
            - name: Setup finished
              run: echo "HURRAY!!!" 
            
